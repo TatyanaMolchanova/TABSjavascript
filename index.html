@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<meta name="description" content="">
+</head>
+
+<style>
+	.nav-item.active {
+		background-color: yellow;
+	}
+	.show {
+		display: block;
+	}
+</style>
+<body>
+	
+
+	<nav>
+	  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+	    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+
+	    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+
+	    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+
+	  </div>
+	</nav>
+
+	<div class="tab-content" id="nav-tabContent">
+
+	  <div class="tab-pane active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">111</div>
+
+	  <div class="tab-pane" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">222</div>
+
+	  <div class="tab-pane" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">333</div>
+
+	</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
